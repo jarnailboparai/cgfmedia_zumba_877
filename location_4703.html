@@ -84,7 +84,7 @@ marker = new google.maps.Marker({
 
 position: latlng,
 
-title:'33139',
+title:'',
 
 });
 
@@ -110,7 +110,7 @@ getLo(event.latLng);
 
 });
 
-var address = '33139';
+var address = '';
 
 geocoder.geocode( { 'address': address}, function(results, status) {
 
@@ -150,7 +150,7 @@ console.log(marker);
 
 function codeAddress() {
 
-var address = '33139';
+var address = '';
 
 geocoder.geocode( { 'address': address}, function(results, status) {
 
@@ -288,7 +288,7 @@ setTimeout(loadScript,3000);
 
   <!-- Location Address -->
 
-  <div class="location_address"><p>33139<br>find our zuma shop here</p></div> 
+  <div class="location_address"><p></p></div> 
 
   <!-- Location Address Ends Here -->
 
